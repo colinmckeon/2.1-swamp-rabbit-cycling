@@ -1,15 +1,14 @@
 body{
-  background-color: orange;
+  background-color: #FFDD00;
   text-align: center;
 }
 
 .bike-logo{
   width: 250px;
   height: 200px;
+  margin-top: 50px;
 }
 
-#carousel-example-generic{
-}
 
 @media (min-width: 480px){
   #carousel-example-generic{
@@ -40,4 +39,21 @@ width: 30%;
   .appear{
     display: none;
   }
+}
+
+.appear{
+  margin-top: 10px;
+}
+
+.appear section{
+  font-weight: bold;
+
+}
+
+.lowest{
+  margin-bottom: 40px;
+}
+
+.map{
+  margin-bottom: 50px;
 }
